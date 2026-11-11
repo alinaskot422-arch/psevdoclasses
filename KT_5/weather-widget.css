@@ -1,0 +1,40 @@
+:root {
+    --weather-bg: #000000;
+    --weather-text: #f3f4f6;
+    --weather-accent: #9307f1;
+    --weather-font-size: 16px;
+}
+
+weather-widget.dark {
+    --weather-bg: #1a0524;
+    --weather-text: #f3f4f6;
+    --weather-accent: #cf3cfc;
+    --weather-font-size: 14px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    padding: 20px;
+    color: #f3f4f6; 
+}
+
+.widgets-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;             
+    padding: 20px;
+    max-width: 1400px;      
+    margin: 0 auto;
+}
+
+weather-widget {
+    display: flex;
+    flex: 1 1 280px; 
+    max-width: 350px; 
+}
+
+h1 {
+    text-align: center;
+}
